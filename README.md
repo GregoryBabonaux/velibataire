@@ -11,6 +11,10 @@ git clone https://github.com/GregoryBabonaux/velibataire.git
 cd velibataire
 yarn
 ```
+## Start
+```bash
+yarn start
+```
 
 ## Tests
 ```bash
