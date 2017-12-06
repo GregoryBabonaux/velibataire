@@ -1,8 +1,12 @@
 import { combineReducers } from 'redux'
 import { routerReducer } from 'react-router-redux'
-import counter from './counter'
+import bars from './bars'
+import geolocation from './geolocation'
+import velos from './velos'
 
 export default combineReducers({
   router: routerReducer,
-  counter
+  bars,
+  geolocation,
+  velos
 })
